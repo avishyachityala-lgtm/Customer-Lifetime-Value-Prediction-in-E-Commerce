@@ -6,6 +6,7 @@ This study addresses the prediction of Customer Lifetime Value (CLV) through the
 This project pursues four primary objectives: to estimate customer lifetime value from historical transactional data; to benchmark traditional RFM-based valuation against supervised machine learning models; to determine the behavioral variables that most significantly drive customer value; and to assess model accuracy through established regression evaluation metrics.
 # Dataset
 The analysis draws on the UCI Online Retail Dataset, which comprises transactional records from a UK-based e-commerce retailer. The core variables include customer identification, invoice date, quantity purchased, and unit price — collectively enabling the derivation of customer-level behavioral patterns.
+[https://archive.ics.uci.edu/ml/machine-learning-databases/00352/Online%20Retail.xlsx](url)
 # Methodology
 Data Preprocessing. Initial data preparation involved the removal of records with missing customer identifiers and the exclusion of negative transactions attributable to product returns. A revenue variable was subsequently computed for use in downstream analysis.
 Feature Engineering. Customer behavior was operationalized through a set of constructed features encompassing recency (days elapsed since the most recent purchase), transaction frequency, cumulative monetary expenditure, average order value, customer tenure, inter-purchase interval statistics, and purchase momentum — reflecting directional shifts in buying behavior over time.
